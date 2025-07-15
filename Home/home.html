@@ -9,17 +9,27 @@
 <body>
     <header class="cabecalho">
         <a href="#">Home</a>
-        <a href="#">Projetos</a>
-        <a href="#">Formação</a>
+        <a href="../Projetos/projetos.html">Projetos</a>
+        <a href="../Projetos/projetos.html">Formação</a>
         <a href="#">Contato</a>
     </header>
 
     <section class="slider">
-        <img src="../assets/food_store_1.png" alt="Slide 1" class="slide active">
-        <img src="../assets/py_1.png" alt="Slide 2" class="slide">
-        <img src="../assets/retro_games_1.png" alt="Slide 3" class="slide">
+        <a href="../Projetos/projetos.html#iliricoStudio" >
+            <img src="../assets/liricostudio.png" alt="Slide 1" class="slide active" onclick="(this)">
+            <img src="../assets/food_store_1.png" alt="Slide 2" class="slide">
+            <img src="../assets/retro_games_2.png" alt="Slide 3" class="slide">
+            <img src="../assets/py_1.png" alt="Slide 4" class="slide">
+        </a>
+        
     </section>
 
+    <div class="slider-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot active" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div>
 </body>
 <script src="home.js"></script>
 </html>

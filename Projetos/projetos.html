@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projetos.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="../Home/home.html">Home</a>
+        <a href="#">Projetos</a>
+        <a href="../Formacao/formacao.html">Formação</a>
+        <a href="#">Contato</a>
+    </header>
+
+    <div class="projeto_container">
+        <div class="projeto-header" id="iliricoStudio" onclick="toggleProjeto(this)">
+            <h3>Lírico Studio</h3>
+        </div>
+        <div class="projeto-conteudo">
+            <span>Projeto de site para um estúdio de tatuagem, desenvolvido com HTML, CSS e JavaScript, com foco em engajamento de clientes.
+                Inclui um simulador de tatuagens, que utiliza um modelo 3D interativo de corpo humano para visualizar tatuagens personalizadas.
+                O simulador é alimentado por Python e bibliotecas como Three.js, GLTFLoader e OrbitControls, rodando em servidor local que possibilita o usuário fazer upload
+                de uma imagem que deseja tatuar.</span>
+            <video controls width="100%">
+            <source src="videos/jogo-velha.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+            </video>
+            <div class="btn-github-container">
+                    <a href="https://github.com/seu-usuario/jogo-da-velha" target="_blank" class="btn-github">Ver no GitHub</a>
+            </div>
+        </div>
+        <div class="projeto-header" onclick="toggleProjeto(this)">
+            <h3>Angular Project: Brazilian Food Store</h3>
+        </div>
+        <div class="projeto-conteudo">
+            <span>Aplicação Web de um E-Commerce de comidas tipicamente brasileiras. O usuário pode navegar pelos produtos, adicioná-los ao carrinho e finalizar uma compra fictícia.
+                Tecnologias: Angular, HTML, CSS, TypeScript, UI</span>
+                <video controls width="100%">
+                    <source src="videos/jogo-velha.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <div class="btn-github-container">
+                    <a href="https://github.com/seu-usuario/jogo-da-velha" target="_blank" class="btn-github">Ver no GitHub</a>
+                </div>
+        </div>
+        <div class="projeto-header" onclick="toggleProjeto(this)">
+            <h3>Web Project: Games Store</h3>
+        </div>
+        <div class="projeto-conteudo">
+            <span>Loja virtual de jogos desenvolvida para treinar manipulação de dados e estilização responsiva. Interface simples com links diretos para repositórios e imagens de apresentação.
+                Tecnologias: HTML, CSS, JavaScript</span>
+            
+            <video controls width="100%">
+                <source src="../assets/Retro Games.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo HTML5.
+            </video>
+            <div class="btn-github-container">
+                    <a href="https://github.com/seu-usuario/jogo-da-velha" target="_blank" class="btn-github">Ver no GitHub</a>
+                </div>
+        </div>
+        <div class="projeto-header" onclick="toggleProjeto(this)">
+            <h3>CRUD Python</h3>
+        </div>
+        <div class="projeto-conteudo">
+            <span>Sistema backend que permite cadastrar, visualizar, editar e excluir registros de forma prática. Focado em funcionalidade e experiência do usuário para dispositivos mobile.
+                Tecnologias: Python, UX</span>
+            <video controls width="100%">
+            <source src="videos/jogo-velha.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+            </video>
+                <div class="btn-github-container">
+                    <a href="https://github.com/seu-usuario/jogo-da-velha" target="_blank" class="btn-github">Ver no GitHub</a>
+                </div>
+        </div>
+        
+    </div>
+</body>
+<script src="projetos.js"></script>
+</html>
